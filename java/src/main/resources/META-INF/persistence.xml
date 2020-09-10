@@ -8,10 +8,13 @@
     <persistence-unit name="db" transaction-type="RESOURCE_LOCAL">
     	<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
-        <class>utn.dds.persistencia.futbol.persistence.Jugador</class>
-        <class>utn.dds.persistencia.futbol.persistence.Formacion</class>
-        <class>utn.dds.persistencia.futbol.persistence.Equipo</class>
-        <class>utn.dds.persistencia.futbol.persistence.Partido</class>
+        <class>/canchas-paddle/src/main/java/dominio/Cancha.java</class>
+        <class>/canchas-paddle/src/main/java/dominio/Color.java</class>
+        <class>/canchas-paddle/src/main/java/dominio/Constructor.java</class>
+        <class>/canchas-paddle/src/main/java/dominio/JugadorXPartido.java</class>
+        <class>/canchas-paddle/src/main/java/dominio/Paleta.java</class>
+        <class>/canchas-paddle/src/main/java/dominio/Partido.java</class>
+        <class>/canchas-paddle/src/main/java/dominio/Reserva.java</class>
         
         <properties> 
 	    <property name="hibernate.archive.autodetection" value="class"/>        
